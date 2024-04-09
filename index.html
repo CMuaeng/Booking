@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant Booking</title>
+  </head>
+  <body>
+    <h1>Book Your Seat</h1>
+    <div class="container">
+      <div class="Name">
+        <input type="text" id="Name" placeholder="Name" />
+      </div>
+      <div class="Day">
+        <input type="date" id="Day" />
+      </div>
+      <div class="Time">
+        <input type="time" id="Time" />
+      </div>
+      <div class="Seats">
+        <input type="text" placeholder="Number of Seats" id="Seats" />
+      </div>
+      <button type="submit" id="bookButton">Book Now</button>
+    </div>
+    <div class="table">
+      <h1>Current Bookings</h1>
+      <p id="bookingList"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
